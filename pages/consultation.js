@@ -86,7 +86,7 @@ export default function Home() {
             <input type="text" className="form-control" id="name" ref={addressRef} />
           </div>
           <div className="mb-3">
-            <label htmlFor="message" className="form-label">内容</label>
+            <label htmlFor="message" className="form-label">内容 (送信完了時に内容が「送信しました。」と変更されます)</label>
             <textarea name="message" id="message" className="form-control cc" ref={messageRef} required></textarea>
           </div>
           <button type="submit" className="btn btn-danger mb-5">送信</button>
